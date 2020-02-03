@@ -1,0 +1,23 @@
+.header {
+  box-shadow: 0 0 5px #000;
+  .filters {
+    display: inline-flex;
+    overflow-x: auto;
+    width: 100%;
+    padding: 7px 5px;
+    .filter-item {
+      font: 14px tahoma;
+      font-weight: 300;
+      border-radius: 20px;
+      padding: 4px 8px 8px;
+      cursor: pointer;
+      white-space: nowrap;
+      color: #a3a3a3;
+      margin: 0 3px ;
+      &.active {
+        color: #fff;
+        background-color: #404040;
+      }
+    }
+  }
+}

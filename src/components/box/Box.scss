@@ -1,0 +1,45 @@
+.box {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  width: auto;
+  background-color: #fff;
+  border-radius: 8px;
+  .main-data {
+    display: flex;
+
+    .image-container {
+      .img {
+        border-radius: 8px;
+        margin-left: 8px;
+        width: 25vw;
+        background-size: contain;
+        &:after {
+          content: "";
+          display: block;
+          padding-bottom: 100%;
+        }
+      }
+    }
+    .text-container {
+      flex: 1;
+      font-family: tahoma;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .title {
+        font: 17px tahoma;
+        font-weight: bold;
+        color: #000;
+      }
+      .description {
+        font-size: 15px;
+      }
+      .address {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .footer-data {
+  }
+}
